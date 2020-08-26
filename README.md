@@ -7,18 +7,17 @@ Superlattice fitting project on LSMO/LNO superlattice on STO substrates.
 * Need to use DREAM feature for uncertainty analysis
  
 ## To do list
-* Compare non-magnetic LNO to magnetic LNO
-* Write a program to plot data
 
 ## Naming structure
-Naming: mag-angle-resolution-
+Naming: sample(ft,n3n1,t5)-magfield(0t,1t)-magfitting9(y,n)-anglefitting(y,n)-notes
+Eg. ft-0t-n-n-perfectfit (Fifteen-0T-no magnetic or angle fitting-prefectfitting to data)
 
 ## Notes
 Command
 refl1d --fit=amoeba --steps=1000 --starts=20 --parallel=0 n101G.py --store= --plot=log --view=log
 If using VS Code, need to be in right terminal (base anaconda terminal)
 Need to run termimal in the same folder as the program.
-~reflA --, reflB -+, reflC +-, reflD ++
+data definitions: ~reflA --, reflB -+, reflC +-, reflD ++
 
 ## Program Options:
 
