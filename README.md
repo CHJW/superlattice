@@ -21,7 +21,7 @@ Eg. ft-0t-n-n-perfectfit (Fifteen-0T-no magnetic or angle fitting-prefectfitting
 
 ## Notes
 Stock Command<br>
-`refl1d --fit=amoeba --steps=1000 --starts=20 --parallel=0 <file>.py --store= --plot=log --view=log`<br>
+`refl1d --fit=amoeba --steps=1000 --starts=20 --parallel=0 <file>.py --store=<folder> --plot=log --view=log`<br>
 PNR data definitions: ~reflA --, reflB -+, reflC +-, reflD ++
 
 For Jackson reference:<br>
