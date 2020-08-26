@@ -1,0 +1,547 @@
+.probe
+  .Aguide = Aguide n101Gc1 = 270
+  .H = H n101Gc1 = 0
+  .mm
+    .back_absorption = 1
+    .background = 0
+    .intensity = 1
+    .sample_broadening = 0
+    .theta_offset = 0
+  .mp = None
+  .pm
+    .back_absorption = 1
+    .background = 0
+    .intensity = 1
+    .sample_broadening = 0
+    .theta_offset = 0
+  .pp
+    .back_absorption = 1
+    .background = 0
+    .intensity = 1
+    .sample_broadening = 0
+    .theta_offset = 0
+.sample
+  .layers
+    [0]
+      .interface = SrTiO3 interface = 1.5
+      .material
+        .irho = SrTiO3 irho = 0
+        .rho = SrTiO3 rho = 3.54
+      .thickness = SrTiO3 thickness = 0
+    [1]
+      .interface = LaSrMnO3 interface = 3.11432 in [0,20]
+      .magnetism
+        .dead_above = LaSrMnO3 deadM above = 0
+        .dead_below = LaSrMnO3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM
+          [0] = LaSrMnO3 rhoM[0] = 1.39303 in [1.04,1.56]
+          [1] = LaSrMnO3 rhoM[1] = 1.4133 in [1.04,1.56]
+        .thetaM
+          [0] = LaSrMnO3 thetaM[0] = 324.191 in [0,359]
+          [1] = LaSrMnO3 thetaM[1] = 346.045 in [0,359]
+      .material
+        .irho = LaSrMnO3 irho = 0
+        .rho = LaSrMnO3 rho = 3.7
+      .thickness = LaSrMnO3 thickness = 36.5697 in [32.3,39.5]
+    [2]
+      .interface = LaNiO3 interface = 8.09846 in [0,20]
+      .magnetism
+        .dead_above = LaNiO3 deadM above = 0
+        .dead_below = LaNiO3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM
+          [0] = LaNiO3 rhoM[0] = 0.289961 in [0.24,0.36]
+          [1] = LaNiO3 rhoM[1] = 0.290677 in [0.24,0.36]
+        .thetaM
+          [0] = LaNiO3 thetaM[0] = 86.6582 in [0,359]
+          [1] = LaNiO3 thetaM[1] = 65.4554 in [0,359]
+      .material
+        .irho = LaNiO3 irho = 0
+        .rho = LaNiO3 rho = 6.359
+      .thickness = LaNiO3 thickness = 10.8853 in [10.3,12.7]
+    [3]
+      .interface = LaSrMnO3 interface = 2.82205 in [0,20]
+      .magnetism
+        .dead_above = LaSrMnO3 deadM above = 0
+        .dead_below = LaSrMnO3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM
+          [0] = LaSrMnO3 rhoM[0] = 1.19815 in [1.04,1.56]
+          [1] = LaSrMnO3 rhoM[1] = 1.28662 in [1.04,1.56]
+        .thetaM
+          [0] = LaSrMnO3 thetaM[0] = 358.497 in [0,359]
+          [1] = LaSrMnO3 thetaM[1] = 6.52129 in [0,359]
+      .material
+        .irho = LaSrMnO3 irho = 0
+        .rho = LaSrMnO3 rho = 3.7
+      .thickness = LaSrMnO3 thickness = 38.0755 in [32.3,39.5]
+    [4]
+      .interface = LaNiO3 interface = 3.1107 in [0,20]
+      .magnetism
+        .dead_above = LaNiO3 deadM above = 0
+        .dead_below = LaNiO3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM
+          [0] = LaNiO3 rhoM[0] = 0.32044 in [0.24,0.36]
+          [1] = LaNiO3 rhoM[1] = 0.294872 in [0.24,0.36]
+        .thetaM
+          [0] = LaNiO3 thetaM[0] = 325.526 in [0,359]
+          [1] = LaNiO3 thetaM[1] = 251.63 in [0,359]
+      .material
+        .irho = LaNiO3 irho = 0
+        .rho = LaNiO3 rho = 6.359
+      .thickness = LaNiO3 thickness = 3.87873 in [3.47,4.25]
+    [5]
+      .interface = LaSrMnO3 interface = 11.9016 in [0,20]
+      .magnetism
+        .dead_above = LaSrMnO3 deadM above = 0
+        .dead_below = LaSrMnO3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM
+          [0] = LaSrMnO3 rhoM[0] = 1.51377 in [1.04,1.56]
+          [1] = LaSrMnO3 rhoM[1] = 1.45821 in [1.04,1.56]
+        .thetaM
+          [0] = LaSrMnO3 thetaM[0] = 351.505 in [0,359]
+          [1] = LaSrMnO3 thetaM[1] = 327.781 in [0,359]
+      .material
+        .irho = LaSrMnO3 irho = 0
+        .rho = LaSrMnO3 rho = 3.7
+      .thickness = LaSrMnO3 thickness = 38.1182 in [32.3,39.5]
+    [6]
+      .interface = LaNiO3 interface = 1.78413 in [0,20]
+      .magnetism
+        .dead_above = LaNiO3 deadM above = 0
+        .dead_below = LaNiO3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM
+          [0] = LaNiO3 rhoM[0] = 0.300577 in [0.24,0.36]
+          [1] = LaNiO3 rhoM[1] = 0.296702 in [0.24,0.36]
+        .thetaM
+          [0] = LaNiO3 thetaM[0] = 306.222 in [0,359]
+          [1] = LaNiO3 thetaM[1] = 262.357 in [0,359]
+      .material
+        .irho = LaNiO3 irho = 0
+        .rho = LaNiO3 rho = 6.359
+      .thickness = LaNiO3 thickness = 11.3661 in [10.3,12.7]
+    [7]
+      .interface = LaSrMnO3 interface = 5.51265 in [0,20]
+      .magnetism
+        .dead_above = LaSrMnO3 deadM above = 0
+        .dead_below = LaSrMnO3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM
+          [0] = LaSrMnO3 rhoM[0] = 1.16022 in [1.04,1.56]
+          [1] = LaSrMnO3 rhoM[1] = 1.12646 in [1.04,1.56]
+        .thetaM
+          [0] = LaSrMnO3 thetaM[0] = 161.172 in [0,359]
+          [1] = LaSrMnO3 thetaM[1] = 295.431 in [0,359]
+      .material
+        .irho = LaSrMnO3 irho = 0
+        .rho = LaSrMnO3 rho = 3.7
+      .thickness = LaSrMnO3 thickness = 35.4087 in [32.3,39.5]
+    [8]
+      .interface = LaNiO3 interface = 3.62025 in [0,20]
+      .magnetism
+        .dead_above = LaNiO3 deadM above = 0
+        .dead_below = LaNiO3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM
+          [0] = LaNiO3 rhoM[0] = 0.291594 in [0.24,0.36]
+          [1] = LaNiO3 rhoM[1] = 0.288702 in [0.24,0.36]
+        .thetaM
+          [0] = LaNiO3 thetaM[0] = 312.607 in [0,359]
+          [1] = LaNiO3 thetaM[1] = 246.465 in [0,359]
+      .material
+        .irho = LaNiO3 irho = 0
+        .rho = LaNiO3 rho = 6.359
+      .thickness = LaNiO3 thickness = 3.83293 in [3.47,4.25]
+    [9]
+      .interface = LaSrMnO3 interface = 2.5731 in [0,20]
+      .magnetism
+        .dead_above = LaSrMnO3 deadM above = 0
+        .dead_below = LaSrMnO3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM
+          [0] = LaSrMnO3 rhoM[0] = 1.2484 in [1.04,1.56]
+          [1] = LaSrMnO3 rhoM[1] = 1.32603 in [1.04,1.56]
+        .thetaM
+          [0] = LaSrMnO3 thetaM[0] = 46.2679 in [0,359]
+          [1] = LaSrMnO3 thetaM[1] = 338.587 in [0,359]
+      .material
+        .irho = LaSrMnO3 irho = 0
+        .rho = LaSrMnO3 rho = 3.7
+      .thickness = LaSrMnO3 thickness = 38.2541 in [32.3,39.5]
+    [10]
+      .interface = LaNiO3 interface = 2.84592 in [0,20]
+      .magnetism
+        .dead_above = LaNiO3 deadM above = 0
+        .dead_below = LaNiO3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM
+          [0] = LaNiO3 rhoM[0] = 0.299432 in [0.24,0.36]
+          [1] = LaNiO3 rhoM[1] = 0.297011 in [0.24,0.36]
+        .thetaM
+          [0] = LaNiO3 thetaM[0] = 263.819 in [0,359]
+          [1] = LaNiO3 thetaM[1] = 240.466 in [0,359]
+      .material
+        .irho = LaNiO3 irho = 0
+        .rho = LaNiO3 rho = 6.359
+      .thickness = LaNiO3 thickness = 11.1902 in [10.3,12.7]
+    [11]
+      .interface = LaSrMnO3 interface = 2.78354 in [0,20]
+      .magnetism
+        .dead_above = LaSrMnO3 deadM above = 0
+        .dead_below = LaSrMnO3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM
+          [0] = LaSrMnO3 rhoM[0] = 1.36257 in [1.04,1.56]
+          [1] = LaSrMnO3 rhoM[1] = 1.33693 in [1.04,1.56]
+        .thetaM
+          [0] = LaSrMnO3 thetaM[0] = 193.207 in [0,359]
+          [1] = LaSrMnO3 thetaM[1] = 193.601 in [0,359]
+      .material
+        .irho = LaSrMnO3 irho = 0
+        .rho = LaSrMnO3 rho = 3.7
+      .thickness = LaSrMnO3 thickness = 37.9783 in [32.3,39.5]
+    [12]
+      .interface = LaNiO3 interface = 2.20718 in [0,20]
+      .magnetism
+        .dead_above = LaNiO3 deadM above = 0
+        .dead_below = LaNiO3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM
+          [0] = LaNiO3 rhoM[0] = 0.298701 in [0.24,0.36]
+          [1] = LaNiO3 rhoM[1] = 0.294191 in [0.24,0.36]
+        .thetaM
+          [0] = LaNiO3 thetaM[0] = 125.662 in [0,359]
+          [1] = LaNiO3 thetaM[1] = 236.429 in [0,359]
+      .material
+        .irho = LaNiO3 irho = 0
+        .rho = LaNiO3 rho = 6.359
+      .thickness = LaNiO3 thickness = 3.91294 in [3.47,4.25]
+    [13]
+      .interface = LaSrMnO3 interface = 2.10973 in [0,20]
+      .magnetism
+        .dead_above = LaSrMnO3 deadM above = 0
+        .dead_below = LaSrMnO3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM
+          [0] = LaSrMnO3 rhoM[0] = 1.21336 in [1.04,1.56]
+          [1] = LaSrMnO3 rhoM[1] = 1.16875 in [1.04,1.56]
+        .thetaM
+          [0] = LaSrMnO3 thetaM[0] = 347.157 in [0,359]
+          [1] = LaSrMnO3 thetaM[1] = 346.165 in [0,359]
+      .material
+        .irho = LaSrMnO3 irho = 0
+        .rho = LaSrMnO3 rho = 3.7
+      .thickness = LaSrMnO3 thickness = 37.9503 in [32.3,39.5]
+    [14]
+      .interface = LaNiO3 interface = 6.71655 in [0,20]
+      .magnetism
+        .dead_above = LaNiO3 deadM above = 0
+        .dead_below = LaNiO3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM
+          [0] = LaNiO3 rhoM[0] = 0.295382 in [0.24,0.36]
+          [1] = LaNiO3 rhoM[1] = 0.295054 in [0.24,0.36]
+        .thetaM
+          [0] = LaNiO3 thetaM[0] = 188.641 in [0,359]
+          [1] = LaNiO3 thetaM[1] = 192.077 in [0,359]
+      .material
+        .irho = LaNiO3 irho = 0
+        .rho = LaNiO3 rho = 6.359
+      .thickness = LaNiO3 thickness = 11.2235 in [10.3,12.7]
+    [15]
+      .interface = LaSrMnO3 interface = 2.97588 in [0,20]
+      .magnetism
+        .dead_above = LaSrMnO3 deadM above = 0
+        .dead_below = LaSrMnO3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM
+          [0] = LaSrMnO3 rhoM[0] = 1.08074 in [1.04,1.56]
+          [1] = LaSrMnO3 rhoM[1] = 1.10522 in [1.04,1.56]
+        .thetaM
+          [0] = LaSrMnO3 thetaM[0] = 353.074 in [0,359]
+          [1] = LaSrMnO3 thetaM[1] = 347.942 in [0,359]
+      .material
+        .irho = LaSrMnO3 irho = 0
+        .rho = LaSrMnO3 rho = 3.7
+      .thickness = LaSrMnO3 thickness = 36.6088 in [32.3,39.5]
+    [16]
+      .interface = LaNiO3 interface = 2.52232 in [0,20]
+      .magnetism
+        .dead_above = LaNiO3 deadM above = 0
+        .dead_below = LaNiO3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM
+          [0] = LaNiO3 rhoM[0] = 0.296432 in [0.24,0.36]
+          [1] = LaNiO3 rhoM[1] = 0.299944 in [0.24,0.36]
+        .thetaM
+          [0] = LaNiO3 thetaM[0] = 192.444 in [0,359]
+          [1] = LaNiO3 thetaM[1] = 253.634 in [0,359]
+      .material
+        .irho = LaNiO3 irho = 0
+        .rho = LaNiO3 rho = 6.359
+      .thickness = LaNiO3 thickness = 3.87675 in [3.47,4.25]
+    [17]
+      .interface = LaSrMnO3 interface = 2.24058 in [0,20]
+      .magnetism
+        .dead_above = LaSrMnO3 deadM above = 0
+        .dead_below = LaSrMnO3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM
+          [0] = LaSrMnO3 rhoM[0] = 1.1843 in [1.04,1.56]
+          [1] = LaSrMnO3 rhoM[1] = 1.16347 in [1.04,1.56]
+        .thetaM
+          [0] = LaSrMnO3 thetaM[0] = 354.045 in [0,359]
+          [1] = LaSrMnO3 thetaM[1] = 351.587 in [0,359]
+      .material
+        .irho = LaSrMnO3 irho = 0
+        .rho = LaSrMnO3 rho = 3.7
+      .thickness = LaSrMnO3 thickness = 36.9199 in [32.3,39.5]
+    [18]
+      .interface = LaNiO3 interface = 2.56959 in [0,20]
+      .magnetism
+        .dead_above = LaNiO3 deadM above = 0
+        .dead_below = LaNiO3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM
+          [0] = LaNiO3 rhoM[0] = 0.299339 in [0.24,0.36]
+          [1] = LaNiO3 rhoM[1] = 0.294924 in [0.24,0.36]
+        .thetaM
+          [0] = LaNiO3 thetaM[0] = 172.855 in [0,359]
+          [1] = LaNiO3 thetaM[1] = 233.678 in [0,359]
+      .material
+        .irho = LaNiO3 irho = 0
+        .rho = LaNiO3 rho = 6.359
+      .thickness = LaNiO3 thickness = 11.6538 in [10.3,12.7]
+    [19]
+      .interface = LaSrMnO3 interface = 2.65139 in [0,20]
+      .magnetism
+        .dead_above = LaSrMnO3 deadM above = 0
+        .dead_below = LaSrMnO3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM
+          [0] = LaSrMnO3 rhoM[0] = 1.0794 in [1.04,1.56]
+          [1] = LaSrMnO3 rhoM[1] = 1.144 in [1.04,1.56]
+        .thetaM
+          [0] = LaSrMnO3 thetaM[0] = 352.362 in [0,359]
+          [1] = LaSrMnO3 thetaM[1] = 333.777 in [0,359]
+      .material
+        .irho = LaSrMnO3 irho = 0
+        .rho = LaSrMnO3 rho = 3.7
+      .thickness = LaSrMnO3 thickness = 35.6541 in [32.3,39.5]
+    [20]
+      .interface = LaNiO3 interface = 2.83214 in [0,20]
+      .magnetism
+        .dead_above = LaNiO3 deadM above = 0
+        .dead_below = LaNiO3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM
+          [0] = LaNiO3 rhoM[0] = 0.291377 in [0.24,0.36]
+          [1] = LaNiO3 rhoM[1] = 0.293395 in [0.24,0.36]
+        .thetaM
+          [0] = LaNiO3 thetaM[0] = 196.003 in [0,359]
+          [1] = LaNiO3 thetaM[1] = 236.644 in [0,359]
+      .material
+        .irho = LaNiO3 irho = 0
+        .rho = LaNiO3 rho = 6.359
+      .thickness = LaNiO3 thickness = 3.90989 in [3.47,4.25]
+    [21]
+      .interface = LaSrMnO3 interface = 4.71608 in [0,20]
+      .magnetism
+        .dead_above = LaSrMnO3 deadM above = 0
+        .dead_below = LaSrMnO3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM
+          [0] = LaSrMnO3 rhoM[0] = 1.1477 in [1.04,1.56]
+          [1] = LaSrMnO3 rhoM[1] = 1.17363 in [1.04,1.56]
+        .thetaM
+          [0] = LaSrMnO3 thetaM[0] = 356.273 in [0,359]
+          [1] = LaSrMnO3 thetaM[1] = 354.037 in [0,359]
+      .material
+        .irho = LaSrMnO3 irho = 0
+        .rho = LaSrMnO3 rho = 3.7
+      .thickness = LaSrMnO3 thickness = 35.7179 in [32.3,39.5]
+    [22]
+      .interface = LaNiO3 interface = 4.61953 in [0,20]
+      .magnetism
+        .dead_above = LaNiO3 deadM above = 0
+        .dead_below = LaNiO3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM
+          [0] = LaNiO3 rhoM[0] = 0.294897 in [0.24,0.36]
+          [1] = LaNiO3 rhoM[1] = 0.2855 in [0.24,0.36]
+        .thetaM
+          [0] = LaNiO3 thetaM[0] = 135.702 in [0,359]
+          [1] = LaNiO3 thetaM[1] = 267.317 in [0,359]
+      .material
+        .irho = LaNiO3 irho = 0
+        .rho = LaNiO3 rho = 6.359
+      .thickness = LaNiO3 thickness = 11.8901 in [10.3,12.7]
+    [23]
+      .interface = LaSrMnO3 interface = 2.01007 in [0,20]
+      .magnetism
+        .dead_above = LaSrMnO3 deadM above = 0
+        .dead_below = LaSrMnO3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM
+          [0] = LaSrMnO3 rhoM[0] = 1.3239 in [1.04,1.56]
+          [1] = LaSrMnO3 rhoM[1] = 1.37015 in [1.04,1.56]
+        .thetaM
+          [0] = LaSrMnO3 thetaM[0] = 352.003 in [0,359]
+          [1] = LaSrMnO3 thetaM[1] = 341.425 in [0,359]
+      .material
+        .irho = LaSrMnO3 irho = 0
+        .rho = LaSrMnO3 rho = 3.7
+      .thickness = LaSrMnO3 thickness = 35.9261 in [32.3,39.5]
+    [24]
+      .interface = LaNiO3 interface = 3.14907 in [0,20]
+      .magnetism
+        .dead_above = LaNiO3 deadM above = 0
+        .dead_below = LaNiO3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM
+          [0] = LaNiO3 rhoM[0] = 0.297801 in [0.24,0.36]
+          [1] = LaNiO3 rhoM[1] = 0.285296 in [0.24,0.36]
+        .thetaM
+          [0] = LaNiO3 thetaM[0] = 291.768 in [0,359]
+          [1] = LaNiO3 thetaM[1] = 256.071 in [0,359]
+      .material
+        .irho = LaNiO3 irho = 0
+        .rho = LaNiO3 rho = 6.359
+      .thickness = LaNiO3 thickness = 4.04404 in [3.47,4.25]
+    [25]
+      .interface = LaSrMnO3 interface = 4.39305 in [0,20]
+      .magnetism
+        .dead_above = LaSrMnO3 deadM above = 0
+        .dead_below = LaSrMnO3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM
+          [0] = LaSrMnO3 rhoM[0] = 1.17454 in [1.04,1.56]
+          [1] = LaSrMnO3 rhoM[1] = 1.24613 in [1.04,1.56]
+        .thetaM
+          [0] = LaSrMnO3 thetaM[0] = 99.4742 in [0,359]
+          [1] = LaSrMnO3 thetaM[1] = 215.298 in [0,359]
+      .material
+        .irho = LaSrMnO3 irho = 0
+        .rho = LaSrMnO3 rho = 3.7
+      .thickness = LaSrMnO3 thickness = 34.0631 in [32.3,39.5]
+    [26]
+      .interface = LaNiO3 interface = 1.7503 in [0,20]
+      .magnetism
+        .dead_above = LaNiO3 deadM above = 0
+        .dead_below = LaNiO3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM
+          [0] = LaNiO3 rhoM[0] = 0.284858 in [0.24,0.36]
+          [1] = LaNiO3 rhoM[1] = 0.292817 in [0.24,0.36]
+        .thetaM
+          [0] = LaNiO3 thetaM[0] = 85.0579 in [0,359]
+          [1] = LaNiO3 thetaM[1] = 260.915 in [0,359]
+      .material
+        .irho = LaNiO3 irho = 0
+        .rho = LaNiO3 rho = 6.359
+      .thickness = LaNiO3 thickness = 12.5633 in [10.3,12.7]
+    [27]
+      .interface = LaSrMnO3 interface = 7.49637 in [0,20]
+      .magnetism
+        .dead_above = LaSrMnO3 deadM above = 0
+        .dead_below = LaSrMnO3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM
+          [0] = LaSrMnO3 rhoM[0] = 1.32292 in [1.04,1.56]
+          [1] = LaSrMnO3 rhoM[1] = 1.34174 in [1.04,1.56]
+        .thetaM
+          [0] = LaSrMnO3 thetaM[0] = 350.012 in [0,359]
+          [1] = LaSrMnO3 thetaM[1] = 353.913 in [0,359]
+      .material
+        .irho = LaSrMnO3 irho = 0
+        .rho = LaSrMnO3 rho = 3.7
+      .thickness = LaSrMnO3 thickness = 35.0542 in [32.3,39.5]
+    [28]
+      .interface = LaNiO3 interface = 1.37512 in [0,20]
+      .magnetism
+        .dead_above = LaNiO3 deadM above = 0
+        .dead_below = LaNiO3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM
+          [0] = LaNiO3 rhoM[0] = 0.288297 in [0.24,0.36]
+          [1] = LaNiO3 rhoM[1] = 0.294467 in [0.24,0.36]
+        .thetaM
+          [0] = LaNiO3 thetaM[0] = 188.465 in [0,359]
+          [1] = LaNiO3 thetaM[1] = 228.451 in [0,359]
+      .material
+        .irho = LaNiO3 irho = 0
+        .rho = LaNiO3 rho = 6.359
+      .thickness = LaNiO3 thickness = 3.94342 in [3.47,4.25]
+    [29]
+      .interface = LaSrMnO3 interface = 15.1789 in [0,20]
+      .magnetism
+        .dead_above = LaSrMnO3 deadM above = 0
+        .dead_below = LaSrMnO3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM
+          [0] = LaSrMnO3 rhoM[0] = 1.31355 in [1.04,1.56]
+          [1] = LaSrMnO3 rhoM[1] = 1.26942 in [1.04,1.56]
+        .thetaM
+          [0] = LaSrMnO3 thetaM[0] = 358.968 in [0,359]
+          [1] = LaSrMnO3 thetaM[1] = 357.206 in [0,359]
+      .material
+        .irho = LaSrMnO3 irho = 0
+        .rho = LaSrMnO3 rho = 3.7
+      .thickness = LaSrMnO3 thickness = 36.012 in [32.3,39.5]
+    [30]
+      .interface = LaNiO3 interface = 5.59119 in [0,20]
+      .magnetism
+        .dead_above = LaNiO3 deadM above = 0
+        .dead_below = LaNiO3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM
+          [0] = LaNiO3 rhoM[0] = 0.300106 in [0.24,0.36]
+          [1] = LaNiO3 rhoM[1] = 0.292254 in [0.24,0.36]
+        .thetaM
+          [0] = LaNiO3 thetaM[0] = 87.2706 in [0,359]
+          [1] = LaNiO3 thetaM[1] = 253.834 in [0,359]
+      .material
+        .irho = LaNiO3 irho = 0
+        .rho = LaNiO3 rho = 6.359
+      .thickness = LaNiO3 thickness = 11.5574 in [10.3,12.7]
+    [31]
+      .interface = air interface = 0
+      .material = None
+      .thickness = air thickness = 0
+  .thickness = stack thickness = 668.039
+
+[chisq=82.5(18), nllf=4207.11]

@@ -13,11 +13,15 @@ Naming: sample(ft,n3n1,t5)-magfield(0t,1t)-magfitting9(y,n)-anglefitting(y,n)-no
 Eg. ft-0t-n-n-perfectfit (Fifteen-0T-no magnetic or angle fitting-prefectfitting to data)
 
 ## Notes
-Command
-refl1d --fit=amoeba --steps=1000 --starts=20 --parallel=0 n101G.py --store= --plot=log --view=log
+Stock Command
+refl1d --fit=amoeba --steps=1000 --starts=20 --parallel=0 <file>.py --store= --plot=log --view=log
+PNR data definitions: ~reflA --, reflB -+, reflC +-, reflD ++
+
+For Jackson reference:
 If using VS Code, need to be in right terminal (base anaconda terminal)
 Need to run termimal in the same folder as the program.
-data definitions: ~reflA --, reflB -+, reflC +-, reflD ++
+C:/ProgramData/Anaconda3/Scripts/activate
+conda activate base
 
 ## Program Options:
 
