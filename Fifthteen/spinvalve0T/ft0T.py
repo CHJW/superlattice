@@ -72,7 +72,7 @@ while x < 31:
 instrument = NCNR.NG1(slits_at_Tlo=0.5)
 # Oliver: You said something about this Tlo value being too precise for our data.
 
-probe = instrument.load_magnetic(["ft0T.reflA", None, "ft0T.reflC", "ft0T.reflD"])
+probe = instrument.load_magnetic(["ft0t.reflA", None, "ft0t.reflC", "ft0t.reflD"])
 
 
 experiment = Experiment(probe=probe, sample=Fifthteen, dz=0.3, dA=None)

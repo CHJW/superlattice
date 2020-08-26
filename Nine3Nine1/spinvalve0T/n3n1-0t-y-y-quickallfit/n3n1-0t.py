@@ -5,12 +5,9 @@ Program: Refl1D Program
 Version 0.1
 Author Jackson Wong
 
-Structure values are taken from 0T fitting.
-Canting of the magnetic layers are done in this program.
-Canting is defined with reference to LNO layer.
-ThetaM 270 is set for LNO and LSMO is canted above and below it. 
-Based on original paper canting between LSMO layers can go as high as 110 degrees.
-Magnetism twist needs to be added to LNO layer, LSMO is presumed uniform.
+Quick fit of all parameters. 
+This fit would need a lot of additional time/steps. 
+This was a test if all labels were sucessfully converted.
 '''
 
 
@@ -52,17 +49,17 @@ while x < 31:
     
     Nine3Nine1[x].thickness.pmp(10)
     Nine3Nine1[x].interface.range(0,5)
-    #Nine3Nine1[x].magnetism.rhoM[0].pmp(5)
-    #Nine3Nine1[x].magnetism.rhoM[1].pmp(5)
-    #Nine3Nine1[x].magnetism.thetaM[0].range(0,359)
-    #Nine3Nine1[x].magnetism.thetaM[1].range(0,359)
+    Nine3Nine1[x].magnetism.rhoM[0].pmp(5)
+    Nine3Nine1[x].magnetism.rhoM[1].pmp(5)
+    Nine3Nine1[x].magnetism.thetaM[0].range(0,359)
+    Nine3Nine1[x].magnetism.thetaM[1].range(0,359)
 
     x += 1
 
 # Load the data
 
 instrument = NCNR.NG1(slits_at_Tlo=0.5)
-probe = instrument.load_magnetic(["n101Gc1.reflA", None, "n101Gc1.reflC", "n101Gc1.reflD"])
+probe = instrument.load_magnetic(["n3n1-0t.reflA", None, "n3n1-0t.reflC", "n3n1-0t.reflD"])
 
 experiment = Experiment(probe=probe, sample=Nine3Nine1, dz=0.3, dA=None)
 problem = FitProblem(experiment)

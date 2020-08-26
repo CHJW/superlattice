@@ -9,8 +9,15 @@ Superlattice fitting project on LSMO/LNO superlattice on STO substrates.
 ## To do list
 
 ## Naming structure
-Naming: sample(ft,n3n1,t5)-magfield(0t,1t)-magfitting9(y,n)-anglefitting(y,n)-notes
+Naming: sample(ft,n3n1,t5)-magfield(0t,1t)-magfitting(y,n)-anglefitting(y,n)-notes <br>
 Eg. ft-0t-n-n-perfectfit (Fifteen-0T-no magnetic or angle fitting-prefectfitting to data)
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| initialfit| thickness and roughness only |
+| splitrhoM  | magneticTwist fitting with variable rhoM const thetaM   |
+|quickallfit | all parameters fit|
+|perfectfit | Match PNR data sacrificing realism|
 
 ## Notes
 Stock Command
