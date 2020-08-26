@@ -21,16 +21,16 @@ Eg. ft-0t-n-n-perfectfit (Fifteen-0T-no magnetic or angle fitting-prefectfitting
 
 ## Notes
 Stock Command<br>
-'refl1d --fit=amoeba --steps=1000 --starts=20 --parallel=0 <file>.py --store= --plot=log --view=log'<br>
+`refl1d --fit=amoeba --steps=1000 --starts=20 --parallel=0 <file>.py --store= --plot=log --view=log`<br>
 PNR data definitions: ~reflA --, reflB -+, reflC +-, reflD ++
 
 For Jackson reference:<br>
 If using VS Code, need to be in right terminal (base anaconda terminal)<br>
 Need to run termimal in the same folder as the program.
-'''
+```
 C:/ProgramData/Anaconda3/Scripts/activate
 conda activate base
-'''
+```
 
 ## Program Options:
 
