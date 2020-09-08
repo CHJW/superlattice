@@ -67,8 +67,6 @@ while x < 31:
 '''
 # Load the data
 
-
-
 instrument = NCNR.NG1(slits_at_Tlo=0.5)
 # Oliver: You said something about this Tlo value being too precise for our data.
 
