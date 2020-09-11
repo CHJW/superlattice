@@ -43,8 +43,8 @@ Ftriple5Model = (STO (0, 1.5)
 x = 1
 
 while x < 31:
-    Ftriple5Model[x].thickness.pmp(5)
-    Ftriple5Model[x].interface.range(0,5)
+    Ftriple5Model[x].thickness.pmp(12)
+    Ftriple5Model[x].interface.range(0,1.5)
     #Ftriple5Model[x].magnetism.rhoM.pmp(10)
     #Ftriple5Model[x].magnetism.thetaM.range(0,359)
     x += 1

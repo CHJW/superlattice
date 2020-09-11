@@ -5,7 +5,9 @@ Program: Refl1D Program
 Version 0.1
 Author Jackson Wong
 
-Quick fit of thickness and roughness to test if the programs work.
+Notes: This program doesn't account for any magnetic fitting.
+Theoretically the 1T field will suppress any magnetic effects therefore only observing structure.
+RhoM is fitted here but the canting is not.
 '''
 
 from refl1d.names import *
@@ -18,21 +20,21 @@ STO = SLD (name = 'SrTiO3', rho = 3.54, irho=0)
 
 
 Nine3Nine1 = (STO (0, 1.5) 
-                | Slab (material = SLD(rho=6.593), thickness = 35.9, interface = 1, magnetism=Magnetism(rhoM=1, thetaM=90)) | LNO(3.86, 1, magnetism=Magnetism(rhoM=0.3, thetaM=90)) 
-                | LSMO (35.9, 1, magnetism=Magnetism(rhoM=1, thetaM=90)) | LNO(11.5, 1, magnetism=Magnetism(rhoM=0.3, thetaM=90)) 
-                | LSMO (35.9, 1, magnetism=Magnetism(rhoM=1, thetaM=90)) | LNO(3.86, 1, magnetism=Magnetism(rhoM=0.3, thetaM=90)) 
-                | LSMO (35.9, 1, magnetism=Magnetism(rhoM=1, thetaM=90)) | LNO(11.5, 1, magnetism=Magnetism(rhoM=0.3, thetaM=90)) 
-                | LSMO (35.9, 1, magnetism=Magnetism(rhoM=1, thetaM=90)) | LNO(11.5, 1, magnetism=Magnetism(rhoM=0.3, thetaM=90)) 
-                | LSMO (35.9, 1, magnetism=Magnetism(rhoM=1, thetaM=90)) | LNO(3.86, 1, magnetism=Magnetism(rhoM=0.3, thetaM=90)) 
-                | LSMO (35.9, 1, magnetism=Magnetism(rhoM=1, thetaM=90)) | LNO(11.5, 1, magnetism=Magnetism(rhoM=0.3, thetaM=90)) 
-                | LSMO (35.9, 1, magnetism=Magnetism(rhoM=1, thetaM=90)) | LNO(3.86, 1, magnetism=Magnetism(rhoM=0.3, thetaM=90)) 
-                | LSMO (35.9, 1, magnetism=Magnetism(rhoM=1, thetaM=90)) | LNO(11.5, 1, magnetism=Magnetism(rhoM=0.3, thetaM=90)) 
-                | LSMO (35.9, 1, magnetism=Magnetism(rhoM=1, thetaM=90)) | LNO(3.86, 1, magnetism=Magnetism(rhoM=0.3, thetaM=90)) 
-                | LSMO (35.9, 1, magnetism=Magnetism(rhoM=1, thetaM=90)) | LNO(11.5, 1, magnetism=Magnetism(rhoM=0.3, thetaM=90)) 
-                | LSMO (35.9, 1, magnetism=Magnetism(rhoM=1, thetaM=90)) | LNO(3.86, 1, magnetism=Magnetism(rhoM=0.3, thetaM=90)) 
-                | LSMO (35.9, 1, magnetism=Magnetism(rhoM=1, thetaM=90)) | LNO(11.5, 1, magnetism=Magnetism(rhoM=0.3, thetaM=90)) 
-                | LSMO (35.9, 1, magnetism=Magnetism(rhoM=1, thetaM=90)) | LNO(3.86, 1, magnetism=Magnetism(rhoM=0.3, thetaM=90)) 
-                | LSMO (35.9, 1, magnetism=Magnetism(rhoM=1, thetaM=90)) | LNO(11.5, 1, magnetism=Magnetism(rhoM=0.3, thetaM=90)) 
+                | LSMO (35.9, 1, magnetism=Magnetism(rhoM=1, thetaM=270)) | LNO(11.5, 1, magnetism=Magnetism(rhoM=0.3, thetaM=270)) 
+                | LSMO (35.9, 1, magnetism=Magnetism(rhoM=1, thetaM=270)) | LNO(3.86, 1, magnetism=Magnetism(rhoM=0.3, thetaM=270)) 
+                | LSMO (35.9, 1, magnetism=Magnetism(rhoM=1, thetaM=270)) | LNO(11.5, 1, magnetism=Magnetism(rhoM=0.3, thetaM=270))
+                | LSMO (35.9, 1, magnetism=Magnetism(rhoM=1, thetaM=270)) | LNO(3.86, 1, magnetism=Magnetism(rhoM=0.3, thetaM=270))  
+                | LSMO (35.9, 1, magnetism=Magnetism(rhoM=1, thetaM=270)) | LNO(11.5, 1, magnetism=Magnetism(rhoM=0.3, thetaM=270)) 
+                | LSMO (35.9, 1, magnetism=Magnetism(rhoM=1, thetaM=270)) | LNO(3.86, 1, magnetism=Magnetism(rhoM=0.3, thetaM=270)) 
+                | LSMO (35.9, 1, magnetism=Magnetism(rhoM=1, thetaM=270)) | LNO(11.5, 1, magnetism=Magnetism(rhoM=0.3, thetaM=270)) 
+                | LSMO (35.9, 1, magnetism=Magnetism(rhoM=1, thetaM=270)) | LNO(3.86, 1, magnetism=Magnetism(rhoM=0.3, thetaM=270)) 
+                | LSMO (35.9, 1, magnetism=Magnetism(rhoM=1, thetaM=270)) | LNO(11.5, 1, magnetism=Magnetism(rhoM=0.3, thetaM=270)) 
+                | LSMO (35.9, 1, magnetism=Magnetism(rhoM=1, thetaM=270)) | LNO(3.86, 1, magnetism=Magnetism(rhoM=0.3, thetaM=270)) 
+                | LSMO (35.9, 1, magnetism=Magnetism(rhoM=1, thetaM=270)) | LNO(11.5, 1, magnetism=Magnetism(rhoM=0.3, thetaM=270)) 
+                | LSMO (35.9, 1, magnetism=Magnetism(rhoM=1, thetaM=270)) | LNO(3.86, 1, magnetism=Magnetism(rhoM=0.3, thetaM=270)) 
+                | LSMO (35.9, 1, magnetism=Magnetism(rhoM=1, thetaM=270)) | LNO(11.5, 1, magnetism=Magnetism(rhoM=0.3, thetaM=270)) 
+                | LSMO (35.9, 1, magnetism=Magnetism(rhoM=1, thetaM=270)) | LNO(3.86, 1, magnetism=Magnetism(rhoM=0.3, thetaM=270)) 
+                | LSMO (35.9, 1, magnetism=Magnetism(rhoM=1, thetaM=270)) | LNO(11.5, 1, magnetism=Magnetism(rhoM=0.3, thetaM=270)) 
                 | air)
 
 
