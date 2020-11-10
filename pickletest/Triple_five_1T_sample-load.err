@@ -1,0 +1,217 @@
+.probe
+  .Aguide = Aguide c_PLP0045024PolCorr = 270
+  .H = H c_PLP0045024PolCorr = 0
+  .mm
+    .back_absorption = back_absorption c_PLP0045024PolCorr = 1
+    .background = background c_PLP0045024PolCorr = 0
+    .intensity = intensity c_PLP0045024PolCorr = 1
+    .sample_broadening = sample_broadening c_PLP0045024PolCorr = 0
+    .theta_offset = theta_offset c_PLP0045024PolCorr = 0
+  .mp
+    .back_absorption = back_absorption c_PLP0045021PolCorr = 1
+    .background = background c_PLP0045021PolCorr = 0
+    .intensity = intensity c_PLP0045021PolCorr = 1
+    .sample_broadening = sample_broadening c_PLP0045021PolCorr = 0
+    .theta_offset = theta_offset c_PLP0045021PolCorr = 0
+  .pm = None
+  .pp
+    .back_absorption = back_absorption PLP0045020PolCorr = 1
+    .background = background PLP0045020PolCorr = 0
+    .intensity = intensity PLP0045020PolCorr = 1
+    .sample_broadening = sample_broadening PLP0045020PolCorr = 0
+    .theta_offset = theta_offset PLP0045020PolCorr = 0
+.sample
+  .layers
+    [0]
+      .interface = SrTiO3 interface = 1.5
+      .material
+        .irho = SrTiO3 irho = 0
+        .rho = SrTiO3 rho = 3.54
+      .thickness = SrTiO3 thickness = 0
+    [1]
+      .interface = LaSrMnO3 interface = 0.813829 in [0,1]
+      .material
+        .irho = LaSrMnO3 irho = 0
+        .rho = LaSrMnO3 rho = 2.992 in [2.9,4.5]
+      .thickness = LaSrMnO3 thickness = 40.9931 in [27,41]
+    [2]
+      .interface = LaNiO3 interface = 0.49359 in [0,1]
+      .material
+        .irho = LaNiO3 irho = 0
+        .rho = LaNiO3 rho = 7.69535 in [5,7.7]
+      .thickness = LaNiO3 thickness = 9.30781 in [9.2,13.8]
+    [3]
+      .interface = LaSrMnO3 interface = 0.625233 in [0,1]
+      .material
+        .irho = LaSrMnO3 irho = 0
+        .rho = LaSrMnO3 rho = 2.992 in [2.9,4.5]
+      .thickness = LaSrMnO3 thickness = 40.9848 in [27,41]
+    [4]
+      .interface = LaNiO3 interface = 0.36512 in [0,1]
+      .material
+        .irho = LaNiO3 irho = 0
+        .rho = LaNiO3 rho = 7.69535 in [5,7.7]
+      .thickness = LaNiO3 thickness = 9.33783 in [9.2,13.8]
+    [5]
+      .interface = LaSrMnO3 interface = 0.64591 in [0,1]
+      .material
+        .irho = LaSrMnO3 irho = 0
+        .rho = LaSrMnO3 rho = 2.992 in [2.9,4.5]
+      .thickness = LaSrMnO3 thickness = 40.7712 in [27,41]
+    [6]
+      .interface = LaNiO3 interface = 0.230612 in [0,1]
+      .material
+        .irho = LaNiO3 irho = 0
+        .rho = LaNiO3 rho = 7.69535 in [5,7.7]
+      .thickness = LaNiO3 thickness = 9.62525 in [9.2,13.8]
+    [7]
+      .interface = LaSrMnO3 interface = 0.915251 in [0,1]
+      .material
+        .irho = LaSrMnO3 irho = 0
+        .rho = LaSrMnO3 rho = 2.992 in [2.9,4.5]
+      .thickness = LaSrMnO3 thickness = 33.3496 in [27,41]
+    [8]
+      .interface = LaNiO3 interface = 0.606562 in [0,1]
+      .material
+        .irho = LaNiO3 irho = 0
+        .rho = LaNiO3 rho = 7.69535 in [5,7.7]
+      .thickness = LaNiO3 thickness = 9.41834 in [9.2,13.8]
+    [9]
+      .interface = LaSrMnO3 interface = 0.698991 in [0,1]
+      .material
+        .irho = LaSrMnO3 irho = 0
+        .rho = LaSrMnO3 rho = 2.992 in [2.9,4.5]
+      .thickness = LaSrMnO3 thickness = 40.9604 in [27,41]
+    [10]
+      .interface = LaNiO3 interface = 0.718697 in [0,1]
+      .material
+        .irho = LaNiO3 irho = 0
+        .rho = LaNiO3 rho = 7.69535 in [5,7.7]
+      .thickness = LaNiO3 thickness = 9.49634 in [9.2,13.8]
+    [11]
+      .interface = LaSrMnO3 interface = 0.696786 in [0,1]
+      .material
+        .irho = LaSrMnO3 irho = 0
+        .rho = LaSrMnO3 rho = 2.992 in [2.9,4.5]
+      .thickness = LaSrMnO3 thickness = 40.2025 in [27,41]
+    [12]
+      .interface = LaNiO3 interface = 0.691373 in [0,1]
+      .material
+        .irho = LaNiO3 irho = 0
+        .rho = LaNiO3 rho = 7.69535 in [5,7.7]
+      .thickness = LaNiO3 thickness = 4.42143 in [3,4.7]
+    [13]
+      .interface = LaSrMnO3 interface = 0.852318 in [0,1]
+      .material
+        .irho = LaSrMnO3 irho = 0
+        .rho = LaSrMnO3 rho = 2.992 in [2.9,4.5]
+      .thickness = LaSrMnO3 thickness = 28.6469 in [27,41]
+    [14]
+      .interface = LaNiO3 interface = 0.784651 in [0,1]
+      .material
+        .irho = LaNiO3 irho = 0
+        .rho = LaNiO3 rho = 7.69535 in [5,7.7]
+      .thickness = LaNiO3 thickness = 4.61645 in [3,4.7]
+    [15]
+      .interface = LaSrMnO3 interface = 0.629761 in [0,1]
+      .material
+        .irho = LaSrMnO3 irho = 0
+        .rho = LaSrMnO3 rho = 2.992 in [2.9,4.5]
+      .thickness = LaSrMnO3 thickness = 27.9387 in [27,41]
+    [16]
+      .interface = LaNiO3 interface = 0.804763 in [0,1]
+      .material
+        .irho = LaNiO3 irho = 0
+        .rho = LaNiO3 rho = 7.69535 in [5,7.7]
+      .thickness = LaNiO3 thickness = 4.69132 in [3,4.7]
+    [17]
+      .interface = LaSrMnO3 interface = 0.50854 in [0,1]
+      .material
+        .irho = LaSrMnO3 irho = 0
+        .rho = LaSrMnO3 rho = 2.992 in [2.9,4.5]
+      .thickness = LaSrMnO3 thickness = 27.8984 in [27,41]
+    [18]
+      .interface = LaNiO3 interface = 0.52576 in [0,1]
+      .material
+        .irho = LaNiO3 irho = 0
+        .rho = LaNiO3 rho = 7.69535 in [5,7.7]
+      .thickness = LaNiO3 thickness = 4.69781 in [3,4.7]
+    [19]
+      .interface = LaSrMnO3 interface = 0.43433 in [0,1]
+      .material
+        .irho = LaSrMnO3 irho = 0
+        .rho = LaSrMnO3 rho = 2.992 in [2.9,4.5]
+      .thickness = LaSrMnO3 thickness = 27.6034 in [27,41]
+    [20]
+      .interface = LaNiO3 interface = 0.445556 in [0,1]
+      .material
+        .irho = LaNiO3 irho = 0
+        .rho = LaNiO3 rho = 7.69535 in [5,7.7]
+      .thickness = LaNiO3 thickness = 4.25407 in [3,4.7]
+    [21]
+      .interface = LaSrMnO3 interface = 0.55696 in [0,1]
+      .material
+        .irho = LaSrMnO3 irho = 0
+        .rho = LaSrMnO3 rho = 2.992 in [2.9,4.5]
+      .thickness = LaSrMnO3 thickness = 27.7687 in [27,41]
+    [22]
+      .interface = LaNiO3 interface = 0.455433 in [0,1]
+      .material
+        .irho = LaNiO3 irho = 0
+        .rho = LaNiO3 rho = 7.69535 in [5,7.7]
+      .thickness = LaNiO3 thickness = 13.7578 in [9.2,13.8]
+    [23]
+      .interface = LaSrMnO3 interface = 0.296577 in [0,1]
+      .material
+        .irho = LaSrMnO3 irho = 0
+        .rho = LaSrMnO3 rho = 2.992 in [2.9,4.5]
+      .thickness = LaSrMnO3 thickness = 40.9986 in [27,41]
+    [24]
+      .interface = LaNiO3 interface = 0.959234 in [0,1]
+      .material
+        .irho = LaNiO3 irho = 0
+        .rho = LaNiO3 rho = 7.69535 in [5,7.7]
+      .thickness = LaNiO3 thickness = 11.5501 in [9.2,13.8]
+    [25]
+      .interface = LaSrMnO3 interface = 0.693128 in [0,1]
+      .material
+        .irho = LaSrMnO3 irho = 0
+        .rho = LaSrMnO3 rho = 2.992 in [2.9,4.5]
+      .thickness = LaSrMnO3 thickness = 27.4139 in [27,41]
+    [26]
+      .interface = LaNiO3 interface = 0.706856 in [0,1]
+      .material
+        .irho = LaNiO3 irho = 0
+        .rho = LaNiO3 rho = 7.69535 in [5,7.7]
+      .thickness = LaNiO3 thickness = 13.4172 in [9.2,13.8]
+    [27]
+      .interface = LaSrMnO3 interface = 0.419474 in [0,1]
+      .material
+        .irho = LaSrMnO3 irho = 0
+        .rho = LaSrMnO3 rho = 2.992 in [2.9,4.5]
+      .thickness = LaSrMnO3 thickness = 40.9611 in [27,41]
+    [28]
+      .interface = LaNiO3 interface = 0.649093 in [0,1]
+      .material
+        .irho = LaNiO3 irho = 0
+        .rho = LaNiO3 rho = 7.69535 in [5,7.7]
+      .thickness = LaNiO3 thickness = 12.2981 in [9.2,13.8]
+    [29]
+      .interface = LaSrMnO3 interface = 0.976618 in [0,1]
+      .material
+        .irho = LaSrMnO3 irho = 0
+        .rho = LaSrMnO3 rho = 2.992 in [2.9,4.5]
+      .thickness = LaSrMnO3 thickness = 27.3557 in [27,41]
+    [30]
+      .interface = LaNiO3 interface = 0.406124 in [0,1]
+      .material
+        .irho = LaNiO3 irho = 0
+        .rho = LaNiO3 rho = 7.69535 in [5,7.7]
+      .thickness = LaNiO3 thickness = 13.7877 in [9.2,13.8]
+    [31]
+      .interface = air interface = 0
+      .material = None
+      .thickness = air thickness = 0
+  .thickness = stack thickness = 648.525
+
+[chisq=24.31(46), nllf=1774.97]

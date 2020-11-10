@@ -1,0 +1,427 @@
+.probe
+  .Aguide = Aguide c_PLP0045024PolCorr = 270
+  .H = H c_PLP0045024PolCorr = 0
+  .mm
+    .back_absorption = back_absorption c_PLP0045024PolCorr = 1
+    .background = background c_PLP0045024PolCorr = 0
+    .intensity = intensity c_PLP0045024PolCorr = 1
+    .sample_broadening = sample_broadening c_PLP0045024PolCorr = 0
+    .theta_offset = theta_offset c_PLP0045024PolCorr = 0
+  .mp
+    .back_absorption = back_absorption c_PLP0045021PolCorr = 1
+    .background = background c_PLP0045021PolCorr = 0
+    .intensity = intensity c_PLP0045021PolCorr = 1
+    .sample_broadening = sample_broadening c_PLP0045021PolCorr = 0
+    .theta_offset = theta_offset c_PLP0045021PolCorr = 0
+  .pm = None
+  .pp
+    .back_absorption = back_absorption PLP0045020PolCorr = 1
+    .background = background PLP0045020PolCorr = 0
+    .intensity = intensity PLP0045020PolCorr = 1
+    .sample_broadening = sample_broadening PLP0045020PolCorr = 0
+    .theta_offset = theta_offset PLP0045020PolCorr = 0
+.sample
+  .layers
+    [0]
+      .interface = SrTiO3 interface = 1.5
+      .material
+        .irho = SrTiO3 irho = 0
+        .rho = SrTiO3 rho = 3.54
+      .thickness = SrTiO3 thickness = 0
+    [1]
+      .interface = LSMO interface = 0.737703
+      .magnetism
+        .dead_above = LSMO_mag_1 deadM above = 0
+        .dead_below = LSMO_mag_1 deadM below = 0
+        .interface_above = LSMO_mag_1  interfaceM above = 1.8229 in [0,10]
+        .interface_below = LSMO_mag_1 interfaceM below = 0.043763 in [0,0.1]
+        .rhoM = LSMO_mag_1 rhoM = 1.40032 in [0,4]
+        .thetaM = LSMO_mag_1 thetaM = 90
+      .material
+        .irho = LSMO irho = 0
+        .rho = LSMO rho = 3.37152
+      .thickness = LSMO thickness = 40.4744
+    [2]
+      .interface = LNO interface = 0.482994
+      .magnetism
+        .dead_above = LNO_3uc_bottom_mag_1 deadM above = 0
+        .dead_below = LNO_3uc_bottom_mag_1 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM = LNO_3uc_bottom_mag_1 rhoM = 0.083922 in [0,0.5]
+        .thetaM = LNO_3uc_bottom_mag_1 thetaM = 90
+      .material
+        .irho = LNO irho = 0
+        .rho = LNO rho = 7.69797
+      .thickness = LNO thickness = 13.7442
+    [3]
+      .interface = LSMO interface = 0.282641
+      .magnetism
+        .dead_above = LSMO_mag_2 deadM above = 0
+        .dead_below = LSMO_mag_2 deadM below = 0
+        .interface_above = LSMO_mag_2  interfaceM above = 0.737436 in [0,10]
+        .interface_below = LSMO_mag_2 interfaceM below = 7.1905 in [0,10]
+        .rhoM = LSMO_mag_2 rhoM = 1.04602 in [0,4]
+        .thetaM = LSMO_mag_2 thetaM = 90
+      .material
+        .irho = LSMO irho = 0
+        .rho = LSMO rho = 3.37152
+      .thickness = LSMO thickness = 40.8917
+    [4]
+      .interface = LNO interface = 0.616129
+      .magnetism
+        .dead_above = LNO_3uc_bottom_mag_2 deadM above = 0
+        .dead_below = LNO_3uc_bottom_mag_2 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM = LNO_3uc_bottom_mag_2 rhoM = 0.0814444 in [0,0.5]
+        .thetaM = LNO_3uc_bottom_mag_2 thetaM = 90
+      .material
+        .irho = LNO irho = 0
+        .rho = LNO rho = 7.69797
+      .thickness = LNO thickness = 9.22377
+    [5]
+      .interface = LSMO interface = 0.499538
+      .magnetism
+        .dead_above = LSMO_mag_3 deadM above = 0
+        .dead_below = LSMO_mag_3 deadM below = 0
+        .interface_above = LSMO_mag_3  interfaceM above = 2.01723 in [0,10]
+        .interface_below = LSMO_mag_3 interfaceM below = 2.6617 in [0,10]
+        .rhoM = LSMO_mag_3 rhoM = 0.772199 in [0,4]
+        .thetaM = LSMO_mag_3 thetaM = 90
+      .material
+        .irho = LSMO irho = 0
+        .rho = LSMO rho = 3.37152
+      .thickness = LSMO thickness = 40.7173
+    [6]
+      .interface = LNO interface = 0.260206
+      .magnetism
+        .dead_above = LNO_3uc_bottom_mag_3 deadM above = 0
+        .dead_below = LNO_3uc_bottom_mag_3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM = LNO_3uc_bottom_mag_3 rhoM = 0.0173214 in [0,0.5]
+        .thetaM = LNO_3uc_bottom_mag_3 thetaM = 90
+      .material
+        .irho = LNO irho = 0
+        .rho = LNO rho = 7.69797
+      .thickness = LNO thickness = 11.4234
+    [7]
+      .interface = LSMO interface = 0.660197
+      .magnetism
+        .dead_above = LSMO_mag_4 deadM above = 0
+        .dead_below = LSMO_mag_4 deadM below = 0
+        .interface_above = LSMO_mag_4  interfaceM above = 4.39447 in [0,10]
+        .interface_below = LSMO_mag_4 interfaceM below = 4.57954 in [0,10]
+        .rhoM = LSMO_mag_4 rhoM = 0.880257 in [0,4]
+        .thetaM = LSMO_mag_4 thetaM = 90
+      .material
+        .irho = LSMO irho = 0
+        .rho = LSMO rho = 3.37152
+      .thickness = LSMO thickness = 39.2372
+    [8]
+      .interface = LNO interface = 0.428655
+      .magnetism
+        .dead_above = LNO_3uc_bottom_mag_4 deadM above = 0
+        .dead_below = LNO_3uc_bottom_mag_4 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM = LNO_3uc_bottom_mag_4 rhoM = 0.0198568 in [0,0.5]
+        .thetaM = LNO_3uc_bottom_mag_4 thetaM = 90
+      .material
+        .irho = LNO irho = 0
+        .rho = LNO rho = 7.69797
+      .thickness = LNO thickness = 9.35772
+    [9]
+      .interface = LSMO interface = 0.445043
+      .magnetism
+        .dead_above = LSMO_mag_5 deadM above = 0
+        .dead_below = LSMO_mag_5 deadM below = 0
+        .interface_above = LSMO_mag_5  interfaceM above = 2.82856 in [0,10]
+        .interface_below = LSMO_mag_5 interfaceM below = 6.59677 in [0,10]
+        .rhoM = LSMO_mag_5 rhoM = 0.658554 in [0,4]
+        .thetaM = LSMO_mag_5 thetaM = 90
+      .material
+        .irho = LSMO irho = 0
+        .rho = LSMO rho = 3.37152
+      .thickness = LSMO thickness = 40.9579
+    [10]
+      .interface = LNO interface = 0.485057
+      .magnetism
+        .dead_above = LNO_3uc_bottom_mag_5 deadM above = 0
+        .dead_below = LNO_3uc_bottom_mag_5 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM = LNO_3uc_bottom_mag_5 rhoM = 0.00431923 in [0,0.5]
+        .thetaM = LNO_3uc_bottom_mag_5 thetaM = 90
+      .material
+        .irho = LNO irho = 0
+        .rho = LNO rho = 7.69797
+      .thickness = LNO thickness = 10.9288
+    [11]
+      .interface = LSMO interface = 0.583638
+      .magnetism
+        .dead_above = LSMO_mag_6 deadM above = 0
+        .dead_below = LSMO_mag_6 deadM below = 0
+        .interface_above = LSMO_mag_6  interfaceM above = 4.45585 in [0,10]
+        .interface_below = LSMO_mag_6 interfaceM below = 4.74825 in [0,10]
+        .rhoM = LSMO_mag_6 rhoM = 0.634281 in [0,4]
+        .thetaM = LSMO_mag_6 thetaM = 90
+      .material
+        .irho = LSMO irho = 0
+        .rho = LSMO rho = 3.37152
+      .thickness = LSMO thickness = 40.385
+    [12]
+      .interface = LNO interface = 0.414547
+      .magnetism
+        .dead_above = LNO_1uc_mag_1 deadM above = 0
+        .dead_below = LNO_1uc_mag_1 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM = LNO_1uc_mag_1 rhoM = 0.140142 in [0,0.5]
+        .thetaM = LNO_1uc_mag_1 thetaM = 90
+      .material
+        .irho = LNO irho = 0
+        .rho = LNO rho = 7.69797
+      .thickness = LNO thickness = 4.62652
+    [13]
+      .interface = LSMO interface = 0.695657
+      .magnetism
+        .dead_above = LSMO_mag_7 deadM above = 0
+        .dead_below = LSMO_mag_7 deadM below = 0
+        .interface_above = LSMO_mag_7  interfaceM above = 4.48923 in [0,10]
+        .interface_below = LSMO_mag_7 interfaceM below = 5.82533 in [0,10]
+        .rhoM = LSMO_mag_7 rhoM = 0.69618 in [0,4]
+        .thetaM = LSMO_mag_7 thetaM = 90
+      .material
+        .irho = LSMO irho = 0
+        .rho = LSMO rho = 3.37152
+      .thickness = LSMO thickness = 32.8087
+    [14]
+      .interface = LNO interface = 0.628087
+      .magnetism
+        .dead_above = LNO_1uc_mag_2 deadM above = 0
+        .dead_below = LNO_1uc_mag_2 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM = LNO_1uc_mag_2 rhoM = 0.088119 in [0,0.5]
+        .thetaM = LNO_1uc_mag_2 thetaM = 90
+      .material
+        .irho = LNO irho = 0
+        .rho = LNO rho = 7.69797
+      .thickness = LNO thickness = 4.67095
+    [15]
+      .interface = LSMO interface = 0.557349
+      .magnetism
+        .dead_above = LSMO_mag_8 deadM above = 0
+        .dead_below = LSMO_mag_8 deadM below = 0
+        .interface_above = LSMO_mag_8  interfaceM above = 6.75294 in [0,10]
+        .interface_below = LSMO_mag_8 interfaceM below = 8.46337 in [0,10]
+        .rhoM = LSMO_mag_8 rhoM = 0.571572 in [0,4]
+        .thetaM = LSMO_mag_8 thetaM = 90
+      .material
+        .irho = LSMO irho = 0
+        .rho = LSMO rho = 3.37152
+      .thickness = LSMO thickness = 27.163
+    [16]
+      .interface = LNO interface = 0.552678
+      .magnetism
+        .dead_above = LNO_1uc_mag_3 deadM above = 0
+        .dead_below = LNO_1uc_mag_3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM = LNO_1uc_mag_3 rhoM = 0.415834 in [0,0.5]
+        .thetaM = LNO_1uc_mag_3 thetaM = 90
+      .material
+        .irho = LNO irho = 0
+        .rho = LNO rho = 7.69797
+      .thickness = LNO thickness = 4.67931
+    [17]
+      .interface = LSMO interface = 0.422358
+      .magnetism
+        .dead_above = LSMO_mag_9 deadM above = 0
+        .dead_below = LSMO_mag_9 deadM below = 0
+        .interface_above = LSMO_mag_9  interfaceM above = 5.09602 in [0,10]
+        .interface_below = LSMO_mag_9 interfaceM below = 8.60193 in [0,10]
+        .rhoM = LSMO_mag_9 rhoM = 0.200565 in [0,4]
+        .thetaM = LSMO_mag_9 thetaM = 90
+      .material
+        .irho = LSMO irho = 0
+        .rho = LSMO rho = 3.37152
+      .thickness = LSMO thickness = 27.1307
+    [18]
+      .interface = LNO interface = 0.351873
+      .magnetism
+        .dead_above = LNO_1uc_mag_4 deadM above = 0
+        .dead_below = LNO_1uc_mag_4 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM = LNO_1uc_mag_4 rhoM = 0.2064 in [0,0.5]
+        .thetaM = LNO_1uc_mag_4 thetaM = 90
+      .material
+        .irho = LNO irho = 0
+        .rho = LNO rho = 7.69797
+      .thickness = LNO thickness = 4.68346
+    [19]
+      .interface = LSMO interface = 0.332547
+      .magnetism
+        .dead_above = LSMO_mag_10 deadM above = 0
+        .dead_below = LSMO_mag_10 deadM below = 0
+        .interface_above = LSMO_mag_10  interfaceM above = 9.32446 in [0,10]
+        .interface_below = LSMO_mag_10 interfaceM below = 5.49237 in [0,10]
+        .rhoM = LSMO_mag_10 rhoM = 0.445984 in [0,4]
+        .thetaM = LSMO_mag_10 thetaM = 90
+      .material
+        .irho = LSMO irho = 0
+        .rho = LSMO rho = 3.37152
+      .thickness = LSMO thickness = 32.7201
+    [20]
+      .interface = LNO interface = 0.252928
+      .magnetism
+        .dead_above = LNO_1uc_mag_5 deadM above = 0
+        .dead_below = LNO_1uc_mag_5 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM = LNO_1uc_mag_5 rhoM = 0.0986747 in [0,0.5]
+        .thetaM = LNO_1uc_mag_5 thetaM = 90
+      .material
+        .irho = LNO irho = 0
+        .rho = LNO rho = 7.69797
+      .thickness = LNO thickness = 3.68551
+    [21]
+      .interface = LSMO interface = 0.676328
+      .magnetism
+        .dead_above = LSMO_mag_11 deadM above = 0
+        .dead_below = LSMO_mag_11 deadM below = 0
+        .interface_above = LSMO_mag_11  interfaceM above = 2.42267 in [0,10]
+        .interface_below = LSMO_mag_11 interfaceM below = 6.47841 in [0,10]
+        .rhoM = LSMO_mag_11 rhoM = 0.372178 in [0,4]
+        .thetaM = LSMO_mag_11 thetaM = 90
+      .material
+        .irho = LSMO irho = 0
+        .rho = LSMO rho = 3.37152
+      .thickness = LSMO thickness = 31.3561
+    [22]
+      .interface = LNO interface = 0.400609
+      .magnetism
+        .dead_above = LNO_3uc_top_mag_1 deadM above = 0
+        .dead_below = LNO_3uc_top_mag_1 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM = LNO_3uc_top_mag_1 rhoM = 0.00644764 in [0,0.5]
+        .thetaM = LNO_3uc_top_mag_1 thetaM = 90
+      .material
+        .irho = LNO irho = 0
+        .rho = LNO rho = 7.69797
+      .thickness = LNO thickness = 13.7673
+    [23]
+      .interface = LSMO interface = 0.163148
+      .magnetism
+        .dead_above = LSMO_mag_12 deadM above = 0
+        .dead_below = LSMO_mag_12 deadM below = 0
+        .interface_above = LSMO_mag_12  interfaceM above = 2.21005 in [0,10]
+        .interface_below = LSMO_mag_12 interfaceM below = 5.80914 in [0,10]
+        .rhoM = LSMO_mag_12 rhoM = 0.56276 in [0,4]
+        .thetaM = LSMO_mag_12 thetaM = 90
+      .material
+        .irho = LSMO irho = 0
+        .rho = LSMO rho = 3.37152
+      .thickness = LSMO thickness = 40.993
+    [24]
+      .interface = LNO interface = 0.766068
+      .magnetism
+        .dead_above = LNO_3uc_top_mag_2 deadM above = 0
+        .dead_below = LNO_3uc_top_mag_2 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM = LNO_3uc_top_mag_2 rhoM = 0.203116 in [0,0.5]
+        .thetaM = LNO_3uc_top_mag_2 thetaM = 90
+      .material
+        .irho = LNO irho = 0
+        .rho = LNO rho = 7.69797
+      .thickness = LNO thickness = 9.21119
+    [25]
+      .interface = LSMO interface = 0.708276
+      .magnetism
+        .dead_above = LSMO_mag_13 deadM above = 0
+        .dead_below = LSMO_mag_13 deadM below = 0
+        .interface_above = LSMO_mag_13  interfaceM above = 4.89862 in [0,10]
+        .interface_below = LSMO_mag_13 interfaceM below = 5.11385 in [0,10]
+        .rhoM = LSMO_mag_13 rhoM = 0.0402034 in [0,4]
+        .thetaM = LSMO_mag_13 thetaM = 90
+      .material
+        .irho = LSMO irho = 0
+        .rho = LSMO rho = 3.37152
+      .thickness = LSMO thickness = 28.5577
+    [26]
+      .interface = LNO interface = 0.397843
+      .magnetism
+        .dead_above = LNO_3uc_top_mag_3 deadM above = 0
+        .dead_below = LNO_3uc_top_mag_3 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM = LNO_3uc_top_mag_3 rhoM = 0.0157692 in [0,0.5]
+        .thetaM = LNO_3uc_top_mag_3 thetaM = 90
+      .material
+        .irho = LNO irho = 0
+        .rho = LNO rho = 7.69797
+      .thickness = LNO thickness = 11.2116
+    [27]
+      .interface = LSMO interface = 0.169622
+      .magnetism
+        .dead_above = LSMO_mag_14 deadM above = 0
+        .dead_below = LSMO_mag_14 deadM below = 0
+        .interface_above = LSMO_mag_14  interfaceM above = 4.59112 in [0,10]
+        .interface_below = LSMO_mag_14 interfaceM below = 5.57367 in [0,10]
+        .rhoM = LSMO_mag_14 rhoM = 0.433179 in [0,4]
+        .thetaM = LSMO_mag_14 thetaM = 90
+      .material
+        .irho = LSMO irho = 0
+        .rho = LSMO rho = 3.37152
+      .thickness = LSMO thickness = 40.98
+    [28]
+      .interface = LNO interface = 0.566498
+      .magnetism
+        .dead_above = LNO_3uc_top_mag_4 deadM above = 0
+        .dead_below = LNO_3uc_top_mag_4 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM = LNO_3uc_top_mag_4 rhoM = 0.119603 in [0,0.5]
+        .thetaM = LNO_3uc_top_mag_4 thetaM = 90
+      .material
+        .irho = LNO irho = 0
+        .rho = LNO rho = 7.69797
+      .thickness = LNO thickness = 9.79554
+    [29]
+      .interface = LSMO interface = 0.770389
+      .magnetism
+        .dead_above = LSMO_mag_15 deadM above = 0
+        .dead_below = LSMO_mag_15 deadM below = 0
+        .interface_above = LSMO_mag_15  interfaceM above = 6.50122 in [0,10]
+        .interface_below = LSMO_mag_15 interfaceM below = 9.60356 in [0,10]
+        .rhoM = LSMO_mag_15 rhoM = 0.708226 in [0,4]
+        .thetaM = LSMO_mag_15 thetaM = 90
+      .material
+        .irho = LSMO irho = 0
+        .rho = LSMO rho = 3.37152
+      .thickness = LSMO thickness = 27.0384
+    [30]
+      .interface = LNO interface = 0.393413
+      .magnetism
+        .dead_above = LNO_3uc_top_mag_5 deadM above = 0
+        .dead_below = LNO_3uc_top_mag_5 deadM below = 0
+        .interface_above = None
+        .interface_below = None
+        .rhoM = LNO_3uc_top_mag_5 rhoM = 0.459658 in [0,0.5]
+        .thetaM = LNO_3uc_top_mag_5 thetaM = 90
+      .material
+        .irho = LNO irho = 0
+        .rho = LNO rho = 7.69797
+      .thickness = LNO thickness = 13.7951
+    [31]
+      .interface = air interface = 0
+      .material = None
+      .thickness = air thickness = 0
+  .thickness = stack thickness = 666.216
+
+[chisq=1.72(44), nllf=127.353]
