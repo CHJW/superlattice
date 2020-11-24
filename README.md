@@ -1,5 +1,6 @@
 # Read Me
 Superlattice fitting project on LSMO/LNO superlattice on STO substrates.
+The code is build on refl1d program. (http://refl1d.readthedocs.org/)
 
 ## Problems
 * -- fitting worse that ++
