@@ -1,5 +1,6 @@
 # Read Me
 Superlattice fitting project on LSMO/LNO superlattice on STO substrates.
+The code is build on refl1d program. (http://refl1d.readthedocs.org/)
 
 ## Problems
 * -- fitting worse that ++
@@ -23,6 +24,9 @@ Eg. ft-0t-n-n-perfectfit (Fifteen-0T-no magnetic or angle fitting-prefectfitting
 Stock Command<br>
 `refl1d --fit=amoeba --steps=1000 --starts=20 --parallel=0 <file>.py --store=<folder> --plot=log --view=log`<br>
 PNR data definitions: ~reflA --, reflB -+, reflC +-, reflD ++
+
+GUI command for continuing fits:
+'refl1d --edit <model_file.py>' then use GUI to load pickle of previous fit
 
 For Jackson reference:<br>
 If using VS Code, need to be in right terminal (base anaconda terminal)<br>
